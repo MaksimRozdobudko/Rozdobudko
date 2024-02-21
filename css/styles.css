@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 8px;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 28px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1300px;
+    opacity: 95%;
+    background-image: linear-gradient(to right, rgba(238, 130, 238, 0.3), rgba(76, 0, 130, 0.3),
+    rgba(0, 0, 255, 0.3), rgba(0, 128, 0, 0.3), rgba(255, 255, 0, 0.3),
+    rgba(255, 166, 0, 0.3), rgba(255, 0, 0, 0.3)), url('../img/planet.jpg');
+    background-position: center;
+}
+header {
+    color: black;
+    text-align: center;
+    font-size: 36px;
+    text-shadow: 3px 3px 3px rgb(47, 255, 238);
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 150px;
+    text-align: center;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: rgb(68, 12, 223);
+    text-shadow: 3px 3px 3px rgb(214, 20, 231);
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    color: rgba(216, 100, 6, 0.986);
+    text-shadow: 3px 3px 3px rgba(181, 194, 5, 0.753);
+}
+footer {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 3px 3px 3px rgba(9, 255, 0, 0.753);
+    bottom: 0;
+    width: 100%;
+}
